@@ -52,5 +52,15 @@ header h1{
 }
 
 .ID{
-    margin-left: 45px;
+    margin-left: 20px;
+}
+
+.ID .inputID{
+    width: 88%; 
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
