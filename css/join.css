@@ -92,6 +92,7 @@ header h1{
 }
 
 footer .nextBtn{
+    width: 90%;
     margin: 20px;
     padding: 18px;
     background-color: #F76707;
