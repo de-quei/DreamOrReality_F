@@ -57,7 +57,7 @@ header h1{
 }
 
 .ID .inputID{
-    width: 93%; 
+    width: 90%;
     padding: 15px; 
     font-size: 16px;
     border: 1px solid #ccc;
@@ -73,7 +73,7 @@ header h1{
 }
 
 .PW .inputPW {
-    width: 93%; 
+    width: 90%; 
     padding: 15px; 
     font-size: 16px;
     border: 1px solid #ccc;
@@ -83,7 +83,7 @@ header h1{
 }
 
 .PW .checkPW{
-    width: 93%;
+    width: 90%;
     padding: 15px;
     font-size: 16px;
     border: 1px solid #ccc;
