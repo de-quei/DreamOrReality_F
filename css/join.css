@@ -30,6 +30,7 @@ header h1{
 /*반응형 넣기*/
 .pageInfo{
     margin: 20px;
+    margin-top: 30px;
 }
 
 .pageInfo .pageNum{
