@@ -67,6 +67,10 @@ header h1{
     margin-bottom: 15px;
 }
 
+.ID .inputID:hover{
+    border: 1px solid #F76707;
+}
+
 .PW{
     margin-top: 20px;
     margin-left: 20px;
@@ -83,12 +87,20 @@ header h1{
     margin-bottom: 15px;
 }
 
+.PW .inputPW:hover{
+    border: 1px solid #F76707;
+}
+
 .PW .checkPW{
     width: 90%;
     padding: 15px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 10px;
+}
+
+.PW .checkPW:hover{
+    border: 1px solid #F76707;
 }
 
 footer .nextBtn{
