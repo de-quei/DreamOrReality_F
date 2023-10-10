@@ -52,67 +52,33 @@ header h1{
     letter-spacing: -0.32px;
 }
 
-.ID{
-    margin-left: 20px;
-    margin-right: 20px;
+.ID,
+.PW {
+  margin: 20px 20px 0;
 }
 
-.ID .inputID{
-    width: 90%;
-    padding: 15px; 
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 10px; 
-    margin-top: 15px;
-    margin-bottom: 15px;
+.ID .inputID,
+.PW .inputPW,
+.PW .checkPW {
+  width: 90%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.ID .inputID:hover{
-    border: 1px solid #F76707;
+.ID .inputID:hover,
+.PW .inputPW:hover,
+.PW .checkPW:hover {
+  border: 1px solid #F76707;
 }
 
-.ID .inputID:focus{
-    outline: 1px solid #F76707;
-}
-
-.PW{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.PW .inputPW {
-    width: 90%; 
-    padding: 15px; 
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 10px; 
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.PW .inputPW:hover{
-    border: 1px solid #F76707;
-}
-
-.PW .inputPW:focus{
-    outline: 1px solid #F76707;
-}
-
-.PW .checkPW{
-    width: 90%;
-    padding: 15px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-}
-
-.PW .checkPW:hover{
-    border: 1px solid #F76707;
-}
-
-.PW .inputPW:focus{
-    outline: 1px solid #F76707;
+.ID .inputID:focus,
+.PW .inputPW:focus,
+.PW .checkPW:focus {
+  outline: 1px solid #F76707;
 }
 
 footer .nextBtn{
