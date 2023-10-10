@@ -71,6 +71,10 @@ header h1{
     border: 1px solid #F76707;
 }
 
+.ID .inputID:focus{
+    outline: 1px solid #F76707;
+}
+
 .PW{
     margin-top: 20px;
     margin-left: 20px;
@@ -91,6 +95,10 @@ header h1{
     border: 1px solid #F76707;
 }
 
+.PW .inputPW:focus{
+    outline: 1px solid #F76707;
+}
+
 .PW .checkPW{
     width: 90%;
     padding: 15px;
@@ -101,6 +109,10 @@ header h1{
 
 .PW .checkPW:hover{
     border: 1px solid #F76707;
+}
+
+.PW .inputPW:focus{
+    outline: 1px solid #F76707;
 }
 
 footer .nextBtn{
