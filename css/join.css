@@ -53,10 +53,11 @@ header h1{
 
 .ID{
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .ID .inputID{
-    width: 88%; 
+    width: 93%; 
     padding: 10px; 
     font-size: 16px;
     border: 1px solid #ccc;
@@ -68,14 +69,23 @@ header h1{
 .PW{
     margin-top: 20px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
-.PW .inputPW{
-    width: 88%; 
+.PW .inputPW {
+    width: 93%; 
     padding: 10px; 
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px; 
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.PW .checkPW{
+    width: 93%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
