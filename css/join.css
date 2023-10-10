@@ -12,3 +12,14 @@ header h1{
     font-style: normal;
     font-weight: 500;
 }
+
+.joinProcessStatus ul{
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+.joinProcessStatus li{
+    margin: 10px;
+}
