@@ -58,8 +58,7 @@ header h1{
 }
 
 .ID .inputID,
-.PW .inputPW,
-.PW .checkPW {
+.PW .inputPW {
   width: 90%;
   padding: 15px;
   font-size: 16px;
@@ -67,6 +66,15 @@ header h1{
   border-radius: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.PW .checkPW{
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .ID .inputID:hover,
