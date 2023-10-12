@@ -90,6 +90,8 @@ header h1{
 }
 
 footer .nextBtn{
+    position: fixed;
+    bottom: 0;
     width: 89%;
     margin: 20px;
     padding: 18px;
