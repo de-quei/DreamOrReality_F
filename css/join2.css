@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/**/
+header h1{
+    margin: 15px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.32px;
+}
+
+.joinProcessStatus ul{
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    height: 10px;
+}
+
+.joinProcessStatus li{
+    margin: 2px;
+}
+
+/*반응형 넣기*/
+.pageInfo{
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.pageInfo .pageNum{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.48px;
+}
+
+.pageInfo .pageGuide{
+    color: #8C9095;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+.GENDER,
+.CLASSOF,
+.EMAIL {
+  margin: 20px 20px 0;
+}
+
+.radioBtn{
+    margin-top: 15px;
+}
+.GENDER input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.CLASSOF .inputCLASSOF,
+.EMAIL .inputEMAIL {
+  width: 90%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.CLASSOF .inputCLASSOF:hover,
+.EMAIL .inputEMAIL:hover {
+  border: 1px solid #F76707;
+}
+
+.CLASSOF .inputCLASSOF:focus,
+.EMAIL .inputEMAIL:focus {
+  outline: 1px solid #F76707;
+}
+
+footer .nextBtn{
+    position: fixed;
+    bottom: 0;
+    width: 89%;
+    margin: 20px;
+    padding: 18px;
+    background-color: #F76707;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.32px;
+    text-align: center;
+    border-radius: 10px;
+}

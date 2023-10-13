@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/join2.css">
+    <title>회원가입</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">회원가입</h1>
+    </header>
+
+    <div class="joinProcessStatus">
+        <ul>
+            <li><img src="../img/joinProcessBar_disabled.png"></li>
+            <li><img src="../img/joinProcessBar_enable.png"></li>
+            <li><img src="../img/joinProcessBar_disabled.png"></li>
+        </ul>
+    </div>
+
+    <div class="pageInfo">
+        <p class="pageNum">2/3</p>
+        <p class="pageGuide">학생 기본 정보를 입력해주세요!</p>
+    </div>
+
+    <form action="#" method="post">
+        <div class="GENDER">
+            <label for="gender">성별을 입력해 주세요.</label></br>
+            <div class="radioBtn">
+                <input type="radio" name="Gender" value="male">남자
+                <input type="radio" name="Gender" value="female">여자
+            </div>
+        </div>
+
+        <div class="CLASSOF">
+            <label for="classof">학번을 입력해 주세요.</label></br>
+            <input type="text" class="inputCLASSOF" placeholder="Ex) 2208">
+        </div>
+
+        <div class="EMAIL">
+            <label for="pw">이메일을 입력해 주세요.</label></br>
+            <input type="email" class="inputEMAIL" placeholder="이메일을 입력해 주세요.">
+        </div>
+    </form>
+
+    <footer>
+        <a href="join3.html"><button type="button" class="nextBtn">다음</button></a>
+    </footer>
+
+</body>
+</html>
