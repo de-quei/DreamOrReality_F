@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // 1초 후에 에러 메시지를 숨깁니다.
             setTimeout(function () {
             errorMessage.textContent = "";
-      }, 1000);
+            }, 1000);
         } else {
             // 모든 필드가 채워졌을 때 다음 페이지로 이동
             window.location.href = "join2.html";
