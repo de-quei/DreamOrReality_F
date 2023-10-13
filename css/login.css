@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    padding: 160px;
+}
+
+.ID,
+.PW {
+  margin: 20px 20px 0;
+}
+
+.ID .inputID,
+.PW .inputPW {
+  width: 90%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.PWshow {
+    margin-left: 20px;
+    margin-right: 6px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 30px;
+    color: #F76707;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.32px;
+}
+
+footer .nextBtn{
+    position: fixed;
+    bottom: 0;
+    width: 89%;
+    margin: 20px;
+    padding: 18px;
+    background-color: #F76707;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.32px;
+    text-align: center;
+    border-radius: 10px;
+}
