@@ -28,6 +28,16 @@
     margin-right: 6px;
 }
 
+.ID .inputID:hover,
+.PW .inputPW:hover {
+  border: 1px solid #F76707;
+}
+
+.ID .inputID:focus,
+.PW .inputPW:focus{
+  outline: 1px solid #F76707;
+}
+
 footer p{
     text-align: center;
     margin-top: 30px;
