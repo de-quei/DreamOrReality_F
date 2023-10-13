@@ -40,6 +40,14 @@ footer p{
     letter-spacing: -0.32px;
 }
 
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline #F76707; /* 호버 시 밑줄 추가 */
+}
+
 footer .nextBtn{
     position: fixed;
     bottom: 0;
