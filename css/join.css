@@ -89,6 +89,18 @@ header h1{
   outline: 1px solid #F76707;
 }
 
+.error-message {
+    color: var(--red-400, #FF5151);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 15px */
+    letter-spacing: -0.3px;
+    text-align: center;
+    margin-top: 150px;
+}
+
 footer .nextBtn{
     position: fixed;
     bottom: 0;
