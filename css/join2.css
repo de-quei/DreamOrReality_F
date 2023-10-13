@@ -58,14 +58,7 @@ header h1{
   margin: 20px 20px 0;
 }
 
-.radioBtn{
-    margin-top: 15px;
-}
-.GENDER input[type="radio"] {
-    margin-right: 5px;
-    vertical-align: middle;
-}
-
+.GENDER .inputGENDER,
 .CLASSOF .inputCLASSOF,
 .EMAIL .inputEMAIL {
   width: 90%;
@@ -77,14 +70,28 @@ header h1{
   margin-bottom: 15px;
 }
 
+.GENDER .inputGENDER:hover,
 .CLASSOF .inputCLASSOF:hover,
 .EMAIL .inputEMAIL:hover {
   border: 1px solid #F76707;
 }
 
-.CLASSOF .inputCLASSOF:focus,
+.GENDER .inputGENDER:focus,
+.EMAIL .inputEMAIL:focus,
 .EMAIL .inputEMAIL:focus {
   outline: 1px solid #F76707;
+}
+
+.error-message {
+    color: var(--red-400, #FF5151);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 15px */
+    letter-spacing: -0.3px;
+    text-align: center;
+    margin-top: 150px;
 }
 
 footer .nextBtn{
