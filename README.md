@@ -4,7 +4,7 @@
 ## Period ⏱️
 2023.09.15 ~
 
-## Contrubutor 🙋
+## Contributors 🙋
 - [장지안](https://github.com/jangjian) 👉🏻 Backend
 - [김현지](https://github.com/de-quei) 👉🏻 Frontend / Backend
 - [최재현](https://www.instagram.com/_idyllic_jh) 👉🏻 Design
