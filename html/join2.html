@@ -27,7 +27,7 @@
 
     <form action="#" method="post">
         <div class="GENDER">
-            <label for="gender">성별을 입력해 주세요:</label><br>
+            <label for="gender">성별을 입력해 주세요.</label><br>
             <select class="inputGENDER" id="genderSelect">
                 <option value="남성">남성</option>
                 <option value="여성">여성</option>
@@ -57,6 +57,7 @@
                             <option value="c6">6</option>
                         </select>
                     </li>
+                    <!--사이즈 지정하기-->
                     <li>
                         <select class="inputNUMBER" id="numberSelect">
                             <option value="" selected>번호</option>
@@ -84,9 +85,14 @@
             </div>
         </div>
 
-        <div class="EMAIL">
-            <label for="pw">이메일을 입력해 주세요.</label></br>
-            <input type="email" class="inputEMAIL" placeholder="이메일을 입력해 주세요.">
+        <div class="DEPARTMENT">
+            <label for="department">학과를 입력해 주세요.</label><br>
+            <select class="inputDEPARTMENT" id="departmentSelect">
+                <option value="" selected>학과를 선택해 주세요.</option>
+                <option value="뉴미디어소프트웨어과">뉴미디어소프트웨어과</option>
+                <option value="뉴미디어웹솔루션과">뉴미디어웹솔루션과</option>
+                <option value="뉴미디어디자인과">뉴미디어디자인과</option>
+            </select>
         </div>
     </form>
 
