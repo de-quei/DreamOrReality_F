@@ -57,7 +57,16 @@ header h1{
   margin: 20px 20px 0;
 }
 
-.GRADUATE-YEAR .inputGRADUATE-YEAR,
+.GRADUATE-YEAR .inputGRADUATE-YEAR{
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .ME .inputME {
   width: 90%;
   padding: 15px;
