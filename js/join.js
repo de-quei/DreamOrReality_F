@@ -1,3 +1,4 @@
+//비밀번호 일치와 영문자,숫자포함 메세지의 우선순위가 필요할듯
 document.addEventListener("DOMContentLoaded", function () {
     const nextButton = document.querySelector(".nextBtn");
     const errorMessage = document.querySelector(".error-message");
@@ -40,4 +41,3 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
-  

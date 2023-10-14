@@ -58,8 +58,43 @@ header h1{
   margin: 20px 20px 0;
 }
 
-.GENDER .inputGENDER,
-.CLASSOF .inputCLASSOF,
+.GENDER .inputGENDER {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.CLASSOF ul {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+}
+  
+.CLASSOF ul li {
+    margin-right: 10px;
+}
+  
+.CLASSOF select {
+    width: 100px; /* 드롭다운 상자의 폭을 조절하세요. */
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+}
+  
+.CLASSOF select:hover {
+    border: 1px solid #F76707;
+}
+  
+.CLASSOF select:focus {
+    outline: 1px solid #F76707;
+} 
+
 .EMAIL .inputEMAIL {
   width: 90%;
   padding: 15px;
@@ -78,9 +113,10 @@ header h1{
 
 .GENDER .inputGENDER:focus,
 .EMAIL .inputEMAIL:focus,
-.EMAIL .inputEMAIL:focus {
+.CLASSOF .inputCLASSOF:focus {
   outline: 1px solid #F76707;
 }
+
 
 .error-message {
     color: var(--red-400, #FF5151);

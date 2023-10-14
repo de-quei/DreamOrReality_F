@@ -52,11 +52,13 @@ header h1{
     letter-spacing: -0.32px;
 }
 
+.NAME,
 .ID,
 .PW {
   margin: 20px 20px 0;
 }
 
+.NAME .inputNAME,
 .ID .inputID,
 .PW .inputPW {
   width: 90%;
@@ -77,12 +79,14 @@ header h1{
     margin-bottom: 15px;
 }
 
+.NAME .inputNAME:hover,
 .ID .inputID:hover,
 .PW .inputPW:hover,
 .PW .checkPW:hover {
   border: 1px solid #F76707;
 }
 
+.NAME .inputNAME:focus,
 .ID .inputID:focus,
 .PW .inputPW:focus,
 .PW .checkPW:focus {
@@ -98,7 +102,7 @@ header h1{
     line-height: 100%; /* 15px */
     letter-spacing: -0.3px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
 footer .nextBtn{

@@ -27,13 +27,61 @@
 
     <form action="#" method="post">
         <div class="GENDER">
-            <label for="gender">성별을 입력해 주세요.</label></br>
-            <input type="text" class="inputGENDER" placeholder="성별을 입력해 주세요.">
+            <label for="gender">성별을 입력해 주세요:</label><br>
+            <select class="inputGENDER" id="genderSelect">
+                <option value="남성">남성</option>
+                <option value="여성">여성</option>
+            </select>
         </div>
 
         <div class="CLASSOF">
             <label for="classof">학번을 입력해 주세요.</label></br>
-            <input type="text" class="inputCLASSOF" placeholder="Ex) 2208">
+            <div class="studentId-selectbox">
+                <ul>
+                    <li>
+                        <select class="inputGRADE" id="gradeSelect">
+                            <option value="" selected>학년</option>
+                            <option value="g1">1</option>
+                            <option value="g2">2</option>
+                            <option value="g3">3</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="inputCLASS" id="classSelect">
+                            <option value="" selected>반</option>
+                            <option value="c1">1</option>
+                            <option value="c2">2</option>
+                            <option value="c3">3</option>
+                            <option value="c4">4</option>
+                            <option value="c5">5</option>
+                            <option value="c6">6</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="inputNUMBER" id="numberSelect">
+                            <option value="" selected>번호</option>
+                            <option value="n1">1</option>
+                            <option value="n2">2</option>
+                            <option value="n3">3</option>
+                            <option value="n4">4</option>
+                            <option value="n5">5</option>
+                            <option value="n6">6</option>
+                            <option value="n7">7</option>
+                            <option value="n8">8</option>
+                            <option value="n9">9</option>
+                            <option value="n10">10</option>
+                            <option value="n11">11</option>
+                            <option value="n12">12</option>
+                            <option value="n13">13</option>
+                            <option value="n14">14</option>
+                            <option value="n15">15</option>
+                            <option value="n16">16</option>
+                            <option value="n17">17</option>
+                            <option value="n18">18</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div class="EMAIL">
