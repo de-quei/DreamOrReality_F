@@ -1,10 +1,48 @@
+@font-face {
+  font-family: 'Partial Sans KR';
+  src: url('/fonts/partialSansKr-Regular.woff2') format('woff2'); /* 파일 경로를 수정하세요. */
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
+.background {
+  position: relative; 
+}
+
 .background img {
-  width: 100%;
+  width: 100%; 
+  height: auto;
+}
+
+.background h1 {
+  position: absolute; 
+  top: 65%; 
+  left: 30%; 
+  transform: translate(-50%, -50%); 
+  color: #FFF;
+  font-family: Partial Sans KR;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 40px */
+}
+
+.background p {
+  position: absolute;
+  top: 85%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 30px */
 }
 
 .ID,
@@ -40,8 +78,8 @@
 
 footer p{
     text-align: center;
-    margin-top: 30px;
-    color: #F76707;
+    margin-top: 20px;
+    color: #ff5151;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
