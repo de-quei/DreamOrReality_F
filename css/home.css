@@ -3,6 +3,16 @@
     margin: 0;
 }
 
+header .welcome{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
