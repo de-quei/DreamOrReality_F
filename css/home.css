@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: solid 1px #D3D3D3;
+}
+
+footer .nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px; 
+    padding-bottom: 5px;
+    
+}
+
+footer .nav div {
+    margin-left: 25px;
+    margin-right: 25px;
+}
