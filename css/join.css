@@ -59,7 +59,6 @@ header h1{
 }
 
 .NAME .inputNAME,
-.ID .inputID,
 .PW .inputPW {
   width: 90%;
   padding: 15px;
@@ -68,6 +67,28 @@ header h1{
   border-radius: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.ID .inputID{
+    width: 60%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ID .doubleCheckBtn{
+    width: 27%;
+    padding: 15px;
+    background-color: #F76707;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .PW .checkPW{
