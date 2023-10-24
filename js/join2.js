@@ -26,3 +26,31 @@ document.addEventListener("DOMContentLoaded", function () {
       }
   });
 });
+
+function submit() {
+    const userid = localStorage.getItem("userid");
+    var gender = document.getElementById("genderSelect").value;
+    var grade = document.getElementById("gradeSelect").value;
+    var classNum = document.getElementById("classSelect").value;
+    var number = document.getElementById("numberSelect").value;
+    var department = document.getElementById("departmentSelect").value;
+    
+console.log(userid);
+
+    axios
+    .post("http://3.34.190.40:3000/user/signup2", {
+        userid: userid,
+        gender: gender,
+        student_num: grade + classNum + number,
+        department: department,
+      })
+      .then((response) => {
+        console.log("Registration response:", response.data);
+        if (response.data.message === "User registered successfully") {
+          console.log("Registration successful!");
+        }
+      })
+      .catch((e) => {
+        console.error("Error during registration:", e);
+      });
+  }
