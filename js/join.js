@@ -41,3 +41,30 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  function submit() {
+    var id = document.getElementById("id").value;
+    var pw = document.getElementById("pw").value;
+    var name = document.getElementById("name").value;
+  
+    
+    console.log("Sending registration request with ID:", id);
+    axios
+    .post("http://3.34.190.40:3000/user/signup1", { // URL 수정
+        name: name,
+        userid: id,
+        pw: pw,
+      })
+      .then((response) => {
+        localStorage.setItem("userid", id);
+        console.log(id);
+  
+        console.log("Registration response:", response.data);
+        if (response.data.message === "User registered successfully") {
+          console.log("Registration successful!");
+        }
+      })
+      .catch((e) => {
+        console.error("Error during registration:", e);
+      });
+  }

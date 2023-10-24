@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="../css/join3.css">
     <title>회원가입</title>
 </head>
@@ -41,14 +42,14 @@
 
         <div class="ME">
             <label for="Me">내가 되고 싶은 나의 모습을 작성해 주세요.</label></br>
-            <textarea class="inputME" placeholder="생애목표, 직업적 꿈, 나의 가치관 등 자유롭게 작성해 주세요."></textarea>
+            <textarea class="inputME" placeholder="생애목표, 직업적 꿈, 나의 가치관 등 자유롭게 작성해 주세요." id="reality"></textarea>
         </div>
     </form>
 
     <div class="error-message"></div>
 
     <footer>
-        <a href="#"><button type="button" class="nextBtn">완료</button></a>
+        <a href="#"><button type="button" class="nextBtn" onclick="submit()">완료</button></a>
     </footer>
 
     <script src="../js/join3.js"></script>

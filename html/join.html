@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/join.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>회원가입</title>
 </head>
 <body>
@@ -29,19 +30,23 @@
     <form action="#" method="post">
         <div class="NAME">
             <label for="name">이름을 입력해 주세요.</label></br>
-            <input type="text" class="inputNAME" placeholder="이름을 입력해 주세요.">
+            <input type="text" class="inputNAME" placeholder="이름을 입력해 주세요." id="name">
         </div>
 
         <div class="ID">
             <label for="id">사용할 아이디를 입력해 주세요.</label></br>
+<<<<<<< HEAD
+            <input type="text" class="inputID" placeholder="아이디를 입력해 주세요." id="id">
+=======
             <input type="text" class="inputID" placeholder="아이디를 입력해 주세요.">
             <Button type="button" class="doubleCheckBtn">중복확인</Button>
+>>>>>>> fc4de298e4f21f306ca22001f6ae53ce13b24191
         </div>
 
         <div class="PW">
             <label for="pw">사용할 비밀번호를 입력해 주세요.</label></br>
             <input type="password" class="inputPW" placeholder="영문자(A~z), 숫자(0~9)를 포함하여야 합니다.">
-            <input type="password" class="checkPW" placeholder="비밀번호 확인">
+            <input type="password" class="checkPW" placeholder="비밀번호 확인" id="pw">
         </div>
     </form>
 
@@ -49,7 +54,7 @@
     <div class="error-message"></div>
 
     <footer>
-        <a href="join2.html"><button type="button" class="nextBtn">다음</button></a>
+        <a href="join2.html"><button type="button" class="nextBtn" onclick="submit()">다음</button></a>
     </footer>
 
     <script src="../js/join.js"></script>
