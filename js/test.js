@@ -109,9 +109,10 @@ for (let i = 0; i < choiceElements.length; i++) {
         setTimeout(function () {
             currentQuestionIndex++;
 
-            // 모든 질문을 다 봤을 경우 결과 표시 또는 다음 질문 표시
+            // 모든 질문을 다 봤을 경우 결과 표시 또는 리디렉션
             if (currentQuestionIndex >= qList.length) {
-                displayResult(currentScore);
+                // 리디렉션
+                window.location.href = "testResult.html";
             } else {
                 displayQuestion();
 
