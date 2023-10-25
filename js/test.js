@@ -90,3 +90,30 @@ function displayQuestion() {
 
 // 초기 질문 표시
 displayQuestion();
+
+// 현재 선택된 스코어를 저장할 변수
+let currentScore = 0;
+
+// 선택지 클릭 이벤트 처리
+for (let i = 0; i < choiceElements.length; i++) {
+    choiceElements[i].addEventListener("click", function () {
+        // 현재 선택된 스코어를 더해줌
+        currentScore += scores[currentQuestionIndex][i];
+
+        // 다음 질문으로 이동
+        currentQuestionIndex++;
+
+        // 모든 질문을 다 봤을 경우 결과 표시 또는 다음 질문 표시
+        if (currentQuestionIndex >= qList.length) {
+            displayResult(currentScore);
+        } else {
+            displayQuestion();
+        }
+    });
+}
+
+// 결과 표시 함수
+function displayResult(score) {
+    // 여기에서 결과를 표시하는 코드를 추가하세요.
+    // 예를 들어, 스코어에 따라 어떤 성격 유형을 나타내는 텍스트를 표시하거나 다른 동작을 수행할 수 있습니다.
+}
