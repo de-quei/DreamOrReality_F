@@ -10,15 +10,23 @@ let cListWithAuthors = [
 ];
 
 
-// 랜덤으로 인용구와 저자 선택
-let randomIndex = Math.floor(Math.random() * cListWithAuthors.length);
-let randomCompliment = cListWithAuthors[randomIndex][0]; // 인용구
-let randomAuthor = cListWithAuthors[randomIndex][1]; // 저자
+// 칭찬뽑기 버튼 요소 참조
+const rouletteButton = document.querySelector("button");
 
-// compliment-div에 인용구 추가
-let complimentDiv = document.querySelector(".compliment-div");
-complimentDiv.textContent = randomCompliment;
+// 칭찬뽑기 버튼 클릭 이벤트 핸들러 추가
+rouletteButton.addEventListener("click", function () {
+    // 랜덤으로 인용구와 저자 선택
+    let randomIndex = Math.floor(Math.random() * cListWithAuthors.length);
+    let randomCompliment = cListWithAuthors[randomIndex][0]; // 인용구
+    let randomAuthor = cListWithAuthors[randomIndex][1]; // 저자
 
-// author-div에 저자 추가
-let authorDiv = document.querySelector(".author-div");
-authorDiv.textContent = "- " + randomAuthor + " -";
+    // compliment-div에 인용구 추가
+    let complimentDiv = document.querySelector(".compliment-div");
+    complimentDiv.textContent = randomCompliment;
+
+    // author-div에 저자 추가
+    let authorDiv = document.querySelector(".author-div");
+    authorDiv.textContent = "- " + randomAuthor + " -";
+});
+
+
