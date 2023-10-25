@@ -21,6 +21,18 @@ main .Roulette{
     padding: 10px;
 }
 
+main .Roulette p{
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .Roulette .author-div{
+    text-align: right;
+}
+
 
 footer {
     position: fixed;
