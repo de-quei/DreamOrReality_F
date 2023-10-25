@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-.line{
-    margin: 100px;
+.page{
+    margin: 50px;
 }
 
 p{
@@ -18,12 +18,30 @@ p{
     margin: 20px;
 }
 
-.choose-Rectangle{
+.a-container{
     width: 320px;
-    height: 470px;
-    margin-top: 50px;
-    margin-left: 32px;
-    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.a-container p{
+    text-align: left;
+}
+
+.answer1,
+.answer2,
+.answer3,
+.answer4,
+.answer5 {
     border: 1px solid #EAEAEA;
-    background: #FAFBFC;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.answer1:hover,
+.answer2:hover,
+.answer3:hover,
+.answer4:hover,
+.answer5:hover {
+    background-color: #2AC1BC; 
+    transform: scale(1.02); 
 }
