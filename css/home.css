@@ -29,6 +29,10 @@ main .Roulette p{
     line-height: normal;
 }
 
+main .Roulette .compliment-div{
+    margin-top: 10px;
+}
+
 main .Roulette .author-div{
     text-align: right;
 }
