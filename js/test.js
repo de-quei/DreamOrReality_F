@@ -58,3 +58,35 @@ let scores = [
     [3, 4, 2, 1, 5],
     [5, 1, 2, 4, 3]
 ];
+
+// 현재 질문의 인덱스
+let currentQuestionIndex = 0;
+
+// HTML 요소 참조
+const questionNumberElement = document.getElementById("questionNumber");
+const questionTextElement = document.getElementById("questionText");
+const choiceElements = [
+    document.getElementById("choice1"),
+    document.getElementById("choice2"),
+    document.getElementById("choice3"),
+    document.getElementById("choice4"),
+    document.getElementById("choice5")
+];
+
+// 질문과 선택지를 화면에 표시하는 함수
+function displayQuestion() {
+    const currentQuestion = qList[currentQuestionIndex];
+    const currentChoices = aList[currentQuestionIndex];
+
+    // 질문 번호와 텍스트 업데이트
+    questionNumberElement.textContent = `${currentQuestionIndex + 1}/${qList.length}`;
+    questionTextElement.textContent = currentQuestion;
+
+    // 선택지 업데이트
+    for (let i = 0; i < currentChoices.length; i++) {
+        choiceElements[i].textContent = currentChoices[i];
+    }
+}
+
+// 초기 질문 표시
+displayQuestion();
