@@ -28,5 +28,3 @@ rouletteButton.addEventListener("click", function () {
     let authorDiv = document.querySelector(".author-div");
     authorDiv.textContent = "- " + randomAuthor + " -";
 });
-
-

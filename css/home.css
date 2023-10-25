@@ -33,6 +33,21 @@ main .Roulette .author-div{
     text-align: right;
 }
 
+main .Roulette button{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #2AC1BC;
+    border: solid 1px #2AC1BC;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.32px;
+}
+
 
 footer {
     position: fixed;
