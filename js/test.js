@@ -100,17 +100,30 @@ for (let i = 0; i < choiceElements.length; i++) {
         // 현재 선택된 스코어를 더해줌
         currentScore += scores[currentQuestionIndex][i];
 
-        // 다음 질문으로 이동
-        currentQuestionIndex++;
-
-        // 모든 질문을 다 봤을 경우 결과 표시 또는 다음 질문 표시
-        if (currentQuestionIndex >= qList.length) {
-            displayResult(currentScore);
-        } else {
-            displayQuestion();
+        // 선택지 클릭 이벤트 비활성화 (1초 동안 중복 클릭 방지)
+        for (let j = 0; j < choiceElements.length; j++) {
+            choiceElements[j].style.pointerEvents = "none";
         }
+
+        // 1초 후 다음 질문으로 이동
+        setTimeout(function () {
+            currentQuestionIndex++;
+
+            // 모든 질문을 다 봤을 경우 결과 표시 또는 다음 질문 표시
+            if (currentQuestionIndex >= qList.length) {
+                displayResult(currentScore);
+            } else {
+                displayQuestion();
+
+                // 선택지 클릭 이벤트 활성화
+                for (let j = 0; j < choiceElements.length; j++) {
+                    choiceElements[j].style.pointerEvents = "auto";
+                }
+            }
+        }, 1000); // 1초(1000밀리초) 후에 실행
     });
 }
+
 
 // 결과 표시 함수
 function displayResult(score) {
