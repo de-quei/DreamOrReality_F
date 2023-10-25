@@ -14,14 +14,11 @@ header .welcome{
 }
 
 main .Roulette{
-    width: 320px;
+    width: 300px;
     height: 150px;
     margin: 20px;
     border: solid 1px #D3D3D3;
-}
-
-main .Roulette p{
-    margin: 10px;
+    padding: 10px;
 }
 
 
