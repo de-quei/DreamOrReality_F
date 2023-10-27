@@ -12,3 +12,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.write-container .title{
+    width: 80%;
+    padding: 15px;
+}
+
+.write-container .content{
+    width: 80%;
+    height: 250px;
+    padding: 15px;
+}
